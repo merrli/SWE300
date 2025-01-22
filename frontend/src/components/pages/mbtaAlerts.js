@@ -25,10 +25,10 @@ function Alerts(){
                  className = "mx-1 my-2"
                  style = {{width: "30rem"}}
                 >
-                    <Card.body>
+                    <Card.Body>
                         <Card.Title>Alert</Card.Title>
                         <Card.Text>{alert.attribute.header}{alert.attribute.description}</Card.Text>
-                    </Card.body>
+                    </Card.Body>
                 </Card>
             ))} 
 
