@@ -27,7 +27,7 @@ function Alerts(){
                 >
                     <Card.Body>
                         <Card.Title>Alert</Card.Title>
-                        <Card.Text>{alert.attribute.header}{alert.attribute.description}</Card.Text>
+                        <Card.Text>{alert.attributes.header}{alert.attributes.description}</Card.Text>
                     </Card.Body>
                 </Card>
             ))} 
@@ -35,8 +35,8 @@ function Alerts(){
             <h1>Alerts!</h1>
             {alerts.map(alert => (
                 <div key = {alert.id}>
-                    <h3> {alert.attribute.header}</h3>
-                    <p>{alert.attribute.description}</p>
+                    <h3> {alert.attributes.header}</h3>
+                    <p>{alert.attributes.description}</p>
                 </div>
             ))}
         </div>
