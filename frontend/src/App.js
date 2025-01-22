@@ -11,9 +11,9 @@ import HomePage from "./components/pages/homePage";
 import Login from "./components/pages/loginPage";
 import Signup from "./components/pages/registerPage";
 import PrivateUserProfile from "./components/pages/privateUserProfilePage";
+import MbtaAlertsPage from "./components/pages/mbtaAlerts";
 import { createContext, useState, useEffect } from "react";
 import getUserInfo from "./utilities/decodeJwt";
-import mbtaAlertsPage from "./components/pages/mbtaAlerts";
 
 export const UserContext = createContext();
 //test change
