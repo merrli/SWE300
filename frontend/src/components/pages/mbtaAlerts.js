@@ -19,18 +19,18 @@ function Alerts(){
         <div>
             {alerts.map(alert => (
                 <Card
-                body
-                outline
-                color = "success"
-                className = "mx-1 my-2"
-                style = {{width: "30rem"}}
+                 body
+                 outline
+                 color = "success"
+                 className = "mx-1 my-2"
+                 style = {{width: "30rem"}}
                 >
                     <Card.body>
                         <Card.Title>Alert</Card.Title>
                         <Card.Text>{alert.attribute.header}{alert.attribute.description}</Card.Text>
                     </Card.body>
                 </Card>
-            ))}
+            ))} 
 
             <h1>Alerts!</h1>
             {alerts.map(alert => (
